@@ -17,7 +17,7 @@ def load_library(file_path)
     emoticon_hash = load_library(path)
     result = emoticon_hash["get_emoticon"][emoticon]
     if result == nil
-      result = "Sorry, that emoticon was not found" 
+      result = "Sorry, that emoticon was not found"
     end
     result
   end
